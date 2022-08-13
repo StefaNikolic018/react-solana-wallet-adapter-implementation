@@ -1,0 +1,47 @@
+@import './reset.scss';
+
+html, body {
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#app {
+    min-height: 100vh;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: sticky;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    &-buttonGroup{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.body-content{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.transfer-box{
+    input{
+        margin: 1rem;
+        border: 1px solid #000000;
+        border-radius: .3rem;
+        padding: .6rem;
+        color: black
+    }
+}
